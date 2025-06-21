@@ -208,7 +208,7 @@ ctk.set_appearance_mode("dark")
 ctk.set_default_color_theme("blue")
 
 app = ctk.CTk()
-app.title("Airdrop Reminder")
+app.title("Airdrop Reminder and Manager")
 app.geometry("750x850")
 
 name_entry = ctk.CTkEntry(app, placeholder_text="Nama Airdrop")
